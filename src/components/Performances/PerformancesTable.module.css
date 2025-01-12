@@ -1,0 +1,33 @@
+.tableView {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tableView th,
+.tableView td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tableView th {
+  background-color: gray;
+  color: white;
+  text-align: left;
+}
+
+.cardView {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+}
