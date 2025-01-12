@@ -21,7 +21,7 @@
 }
 
 .button {
-  background-color: #007bff;
+  background-color: green;
   border: none;
   padding: 10px;
   color: white;
@@ -31,5 +31,6 @@
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background-color: #00b318;
 }
+
